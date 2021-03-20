@@ -1,0 +1,12 @@
+fragment RegularUser on User {
+  id
+  username
+  inviteLink
+  name
+  email
+  address
+  city
+  state
+  zip
+  role
+}

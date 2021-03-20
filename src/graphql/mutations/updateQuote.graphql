@@ -1,0 +1,6 @@
+mutation UpdateQuote($id: Int!, $name: String!) {
+  updateQuote(id: $id, name: $name) {
+    id
+    name
+  }
+}

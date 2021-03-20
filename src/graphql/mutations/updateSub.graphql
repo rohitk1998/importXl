@@ -1,0 +1,13 @@
+mutation UpdateSub(
+  $id: Int!
+  $name: String!
+  $email: String!
+  $subscribed: Boolean!
+) {
+  updateSub(id: $id, name: $name, email: $email, subscribed: $subscribed) {
+    id
+    name
+    email
+    subscribed
+  }
+}

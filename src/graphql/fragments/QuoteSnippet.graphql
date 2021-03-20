@@ -1,0 +1,9 @@
+fragment QuoteSnippet on Quote {
+  id
+  name
+  user {
+    id
+    username
+  }
+  createdAt
+}

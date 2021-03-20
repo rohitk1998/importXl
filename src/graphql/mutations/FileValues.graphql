@@ -1,0 +1,3 @@
+mutation uploadValues($input: FileInput!) {
+  uploadValues(input: $input)
+}
